@@ -14,7 +14,13 @@ class BTree:
         node1=Node(2)
         node2=Node(3)
         node1.printData()
+    def insertNode(self,Node):
+        if Node.data<root.data:
+            insertNode(root.left)
+        elif Node.data>root.data:
+            insertNode(root.right)
+        
     
 
-BTree()
+
       

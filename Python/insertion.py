@@ -5,5 +5,6 @@ for j in range(1,len(A)):
     if A[i]>A[j]:
       A[i],A[j]=A[j],A[i]
       print A
+  print A
 
-print A
+
